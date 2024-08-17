@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex" />
+    <title>エステート東北</title>
+    <link rel="stylesheet" href="./favicon.ico">
+<!-- フォント -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<!-- headerセクション -->
+<picture class="fv__image">
+            <source media="(min-width: 768px)" srcset="./img/pc-fv__bg.png">
+            <img src="./img/sp-fv__bg.png" alt="">
+</picture>
+<header class="header">
+    <div class="header__inner inner">
+        <div class="header__content">
+            <h1 class="header__logo">
+                <a href="/"><img src="./img/header_logo.png" alt="estate-tohoku"></a>
+            </h1>
+                <button id="js-drawer-button" type="button" class="header__icon drawer-icon">
+                    <span class="drawer-icon__bar"></span>
+                    <span class="drawer-icon__bar"></span>
+                    <span class="drawer-icon__bar"></span>
+                </button>
+                <nav class="header__nav">
+                    <ul class="header__lists">
+                        <li class="header__list"><a href="#worries" class="header__link">エステート東北</a></li>
+                        <li class="header__list"><a href="#estates" class="header__link">物件</a></li>
+                        <li class="header__list"><a href="#service" class="header__link">サービス</a></li>
+                        <li class="header__list"><a href="#staff" class="header__link">スタッフ</a></li>
+                        <li class="header__nav-button"><a href="#contact" class="nav-button">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </div>
+</header>
+<div id="js-drawer-content" class="drawer-content">
+    <ul class="drawer-content__menu">
+        <li class="header__list"><a href="#worries" class="drawer-content_text">エステート東北</a></li>
+        <li class="header__list"><a href="#estates" class="drawer-content_text">物件</a></li>
+        <li class="header__list"><a href="#service" class="drawer-content_text">サービス</a></li>
+        <li class="header__list"><a href="#staff" class="drawer-content_text">スタッフ</a></li>
+        <li class="header__button"><a href="#contact" class="drawer-content__button">お問い合わせ</a></li>
+    </ul>
+</div>
+<!-- mvセクション -->
+<maim class="main">
+    <div class="fv">
+        <div class="fv__inner inner">
+            <div class="fv__content">
+                <div class="fv__message-right">
+                    <div class="fv__logo"><img src="./img/fv__logo.png" alt=""></div>
+                    <div class="fv__circle">
+                        <div class="fv__circle1"><img src="./img/fv__circle1.png" alt=""></div>
+                        <div class="fv__circle2"><img src="./img/fv__circle2.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="fv__message-left">
+                    <div class="box" id="makeImg"></div>
+                    <div class="fv__title">
+                        <p class="fv__title1">東北エリア</p>
+                        <p class="fv__title2">最大</p>
+                    </div>
+                    <p class="fv__text">貸事務所・貸店舗</p>
+                    <div class="fv__number">
+                        <p class="fv__number1">創業<span class="number">47</span>年</p>
+                        <p class="fv__number2">実績<span class="number">5</span>万件</p>
+                    </div>
+                    <div class="button__fv">
+                        <a class="button__text">無料でご相談
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="33" height="14" viewBox="0 0 36 14" fill="none">
+                                    <path d="M1.53418 7.89912C1.05924 7.89912 0.674221 8.28414 0.674221 8.75908C0.674221 9.23402 1.05924 9.61904 1.53418 9.61904V7.89912ZM34.7858 8.75908V9.61904C35.1337 9.61904 35.4472 9.40952 35.5803 9.08817C35.7134 8.76683 35.6399 8.39695 35.3939 8.151L34.7858 8.75908ZM27.6195 1.59277L28.2276 0.984691C27.9817 0.738744 27.6118 0.66517 27.2904 0.798275C26.9691 0.931381 26.7596 1.24495 26.7596 1.59277L27.6195 1.59277ZM1.53418 9.61904H34.7858V7.89912H1.53418V9.61904ZM35.3939 8.151L28.2276 0.984691L27.0115 2.20086L34.1778 9.36716L35.3939 8.151ZM26.7596 1.59277V13.9188H28.4795V1.59277H26.7596Z" fill="white" />
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- worriesセクション -->
+<section id="worries" class="worries section">
+    <div class="worries__inner inner">
+        <h2 class="worries__head">こんな<span class="worries__head-large">お悩み</span><br>ありませんか？</h2>
+        <div class="worries__content section__content">
+            <div class="worries__image"><img src="./img/worries__man.png" alt=""></div>
+            <div class="worries__messages">
+                <div class="worries__message1"><img src="./img/worries__coment1.png" alt=""></div>
+                <div class="worries__message2"><img src="./img/worries__coment2.png" alt=""></div>
+                <div class="worries__message3"><img src="./img/worries__coment3.png" alt=""></div>
+                <div class="worries__message4"><img src="./img/worries__coment4.png" alt=""></div>
+            </div>
+        </div>
+        <div class="worries__logo"><img src="./img/worries__logo2.png" alt=""></div>
+    </div>
+    <div class="worries__polygon"><img src="./img/worries__Polygon 2.png" alt=""></div>
+</section>
+<!-- pointsセクション -->
+<section id="points" class="points section">
+    <div class="points__inner inner">
+        <div class="points__cards section__content">
+            <div class="points__card1">
+                <div class="points__head1"><img src="./img/point1.png" alt=""></div>
+                <div class="points__card feature-card">
+                    <p class="points-card__title title1">東北地方<span class="card-large">最大</span>の物件数を所有</p>
+                    <div class="points-card__body">
+                        <p class="points-card__text text1">東北地方最大の３万件もの物件数を誇る我が社。<br>東北最大都市の仙台で創業して47年の実績と信頼を築き上<br >げました。特に仙台・盛岡・福島の繁華街に多くの物件を多数<br class="hidden-md">ご用意しております。</p>
+                        <div class="points-card__image image1"><img src="./img/points__point1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="points__card2">
+                <div class="points__head2"><img src="./img/point2.png" alt=""></div>
+                <div class="points__card feature-card">
+                    <p class="points-card__title2"><span class="card-large2">無料ご相談</span>と内見で最良の物件をご提案</p>
+                    <div class="points-card__body">
+                        <p class="points-card__text text2">無料のご相談でも、希望の地域と<br class="hidden-md">お客様の事業内容に丁寧にお伺い<br class="hidden-md">し、弊社把握する物件から最適な<br class="hidden-md">物件をご案内いたします。物件探<br class="hidden-md">しに重要なご相談を大切にしてお<br class="hidden-md">ります。ご成約まで最短でのやり<br class="hidden-md">とりとなるようご手配いたします。</p>
+                        <div class="points-card__image image2"><img src="./img/points__point2.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="points__card3">
+                <div class="points__head3"><img src="./img/point3.png" alt=""></div>
+                <div class="points__card feature-card">
+                    <p class="points-card__title3">各地域の<span class="card-large3">専門スタッフ</span>がご対応</p>
+                    <div class="points-card__body">
+                        <p class="points-card__text text3">各地域の店舗スタッフは、物<br class="hidden-md">件ご紹介のエキスパートです。<br>お客様の事業とご紹介する物<br class="hidden-md">件を、その物件の特徴だけで<br>はなく、地理的特徴や周辺環<br class="hidden-md">境も踏まえてご紹介が可能です。</p>
+                        <div class="points-card__image image3"><img src="./img/points__point3.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- estateセクション -->
+<section id="estates" class="estates section">
+    <div class="estates__inner inner">
+        <h2 class="heading-estate section__head">おすすめ<br><span class="estate-large">テナント物件</span></h2>
+        <div class="estates__cards section__content" href="">
+            <div class="estates__card1">
+                <div class="estates__card1-head"><img src="./img/estate__head-iwate.png" alt=""></div>
+                <div class="estates__card products-card">
+                    <div class="estates-card__image"><img src="./img/recomends__iwate.png" alt=""></div>
+                    <div class="estates-card__body">
+                        <div class="estates-card__price">
+                            <p class="estates-card__price1">賃料</p>
+                            <p class="estates-card__price2">月額<span class="price-large"> 28</span>万円</p>
+                        </div>
+                        <div class="estates-card__area">
+                            <p class="estates-card__area1">面積</p>
+                            <p class="estates-card__area2">303.8㎡</p>
+                        </div>
+                        <p class="estates-card__address">盛岡市内丸◯◯1-2-3<br>マンション名◯◯</p>
+                    </div>
+                </div>
+            </div>
+            <div class="estates__card2">
+                <div class="estates__card2-head"><img src="./img/estate__head-miyagi.png" alt=""></div>
+                <div class="estates__card products-card" href="">
+                    <div class="estates-card__image"><img src="./img/recomends__sendai.png" alt=""></div>
+                    <div class="estates-card__body">
+                        <div class="estates-card__price">
+                            <p class="estates-card__price1">賃料</p>
+                            <p class="estates-card__price2">月額<span class="price-large"> 48</span>万円</p>
+                        </div>
+                        <div class="estates-card__area">
+                            <p class="estates-card__area1">面積</p>
+                            <p class="estates-card__area2">78.7㎡</p>
+                        </div>
+                        <p class="estates-card__address">仙台市青葉区◯◯1-2-3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="estates__card3">
+                <div class="estates__card3-head"><img src="./img/estate__head-yamagata.png" alt=""></div>
+                <div class="estates__card products-card" href="">
+                    <div class="estates-card__image"><img src="./img/recomends__yamagata.png" alt=""></div>
+                    <div class="estates-card__body">
+                        <div class="estates-card__price">
+                            <p class="estates-card__price1">賃料</p>
+                            <p class="estates-card__price2">月額<span class="price-large"> 16</span>万円</p>
+                        </div>
+                        <div class="estates-card__area">
+                            <p class="estates-card__area1">面積</p>
+                            <p class="estates-card__area2">650.8㎡</p>
+                        </div>
+                        <p class="estates-card__address">山形市××◯◯1-2-3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- serviceセクション -->
+<section id="service" class="service section">
+    <div class="service__inner inner">
+        <h2 class="heading-service section__head">ご成約までの流れ</h2>
+        <div class="service__cards section__content">
+            <div class="service__card">
+                <div class="service-card__number"><img src="./img/service__number1.png" alt=""></div>
+                <div class="service-card__body1">
+                    <div class="service-card__content1">
+                        <h3 class="service-card__title1">ご予約</h3>
+                        <div class="service-card__image1"><img src="./img/service__step1.png" alt=""></div>
+                    </div>
+                    <div class="service-card__texts1">
+                        <p class="service-card__text1">お客様の事業内容や希望<br>立地など、まずはお気軽<br>にご相談ください。</p>
+                        <p class="service-card__text1">下記の予約フォームから<br>ご希望条件を記載いただ<br>けますと、ご案内できる<br>物件をご提案いたします。</p>
+                    </div>
+                </div>
+            </div>
+        <div class="service__card">
+            <div class="service-card__number"><img src="./img/service__number2.png" alt=""></div>
+            <h3 class="service-card__title">ご相談・ご内見</h3>
+            <div class="service-card__body">
+                <div class="service-card__image2"><img src="./img/service__step2.png" alt=""></div>
+                <div class="service-card__texts">
+                    <p class="service-card__text">ご希望内容から、さらに<br class="hidden-md">詳細な内容をお伺いい<br class="hidden-md">たします。</p>
+                    <p class="service-card__text">ご希望の内容に近い物件<br class="hidden-md">をすぐにご内見までご案<br class="hidden-md">内も可能です。</p>
+                </div>
+            </div>
+        </div>
+        <div class="service__card">
+            <div class="service-card__number"><img src="./img/service__number3.png" alt=""></div>
+            <h3 class="service-card__title">お申込み</h3>
+            <div class="service-card__body">
+                <div class="service-card__image3"><img src="./img/service__step3.png" alt=""></div>
+                <p class="service-card__text">ご内見の上で、ご希望<br>の物件がございました<br>ら、お申込みいただき<br>ます。</p>
+            </div>
+        </div>
+        <div class="service__card">
+            <div class="service-card__number"><img src="./img/service__number4.png" alt=""></div>
+            <h3 class="service-card__title">入居審査</h3>
+            <div class="service-card__body">
+                <div class="service-card__image4"><img src="./img/service__step4.png" alt=""></div>
+                <p class="service-card__text">お申し込みから最短<br>で2週間程度で審査を<br>いたします。</p>
+            </div>
+        </div>
+        <div class="service__card">
+            <div class="service-card__number"><img src="./img/service__number5.png" alt=""></div>
+            <h3 class="service-card__title">ご成約</h3>
+            <div class="service-card__body">
+                <div class="service-card__image5"><img src="./img/service__step5.png" alt=""></div>
+                <p class="service-card__text">審査を終了しました<br>ら、ご成約となりま<br>す。物件によります<br>が、初月の賃料と敷<br>金・礼金のご準備が<br>必要になります。</p>
+            </div>
+        </div>
+    </div>
+        <div class="button__service"><a class="button__text-service">予約してみる<div class="arrow-service"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="14" viewBox="0 0 36 14" fill="none">
+            <path d="M1.53418 7.89912C1.05924 7.89912 0.674221 8.28414 0.674221 8.75908C0.674221 9.23402 1.05924 9.61904 1.53418 9.61904V7.89912ZM34.7858 8.75908V9.61904C35.1337 9.61904 35.4472 9.40952 35.5803 9.08817C35.7134 8.76683 35.6399 8.39695 35.3939 8.151L34.7858 8.75908ZM27.6195 1.59277L28.2276 0.984691C27.9817 0.738744 27.6118 0.66517 27.2904 0.798275C26.9691 0.931381 26.7596 1.24495 26.7596 1.59277L27.6195 1.59277ZM1.53418 9.61904H34.7858V7.89912H1.53418V9.61904ZM35.3939 8.151L28.2276 0.984691L27.0115 2.20086L34.1778 9.36716L35.3939 8.151ZM26.7596 1.59277V13.9188H28.4795V1.59277H26.7596Z" fill="white"/>
+          </svg></div></a></div>
+    </div>
+</section>
+<!-- staffセクション -->
+<section id="staff" class="staff section">
+    <div class="staff__inner inner">
+        <h2 class="heading-staff section__head">スタッフのご紹介</h2>
+        <div class="staff__cards">
+            <div class="staff__card">
+                <div class="staff-card__image"><img src="./img/staffs__staff1.png" alt=""></div>
+                <div class="staff-card__body">
+                    <div class="staff-card__content1">
+                        <p class="staff-card__shop">仙台支店</p>
+                        <p class="staff-card__name">支店長　青葉 宏</p>
+                    </div>
+                    <div class="staff-card__content2">
+                        <p class="staff-card__qualification">資格：宅地建物取引士</p>
+                        <p class="staff-card__text">
+                            アピール：仙台生まれ、育ち。<br>弊社に入社後15年以上、仙台<br>の街の変化を見てきました。<br>特に繁華街のテナントにおける<br>立地条件には自信があります。<br>お気軽にご質問ください。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="staff__card">
+                <div class="staff-card__image"><img src="./img/staffs__staff2.png" alt=""></div>
+                <div class="staff-card__body">
+                    <div class="staff-card__content1">
+                        <p class="staff-card__shop">盛岡支店</p>
+                        <p class="staff-card__name">支店長　宮澤 泉</p>
+                    </div>
+                    <div class="staff-card__content2">
+                        <p class="staff-card__qualification">資格：宅地建物取引士</p>
+                        <p class="staff-card__text">
+                            アピール：入社13年目の盛岡の<br>繁華街エリアのスペシャリスト。<br>自然、建物のバランスが整い、<br>2023年に訪れるべき都市にも<br>選ばれた盛岡では、古き良き街<br>並みとコンパクトで調和の取れ<br>た土地での挑戦を応援致します。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="staff__card">
+                <div class="staff-card__image"><img src="./img/staffs__staff3.png" alt=""></div>
+                <div class="staff-card__body">
+                    <div class="staff-card__content1">
+                        <p class="staff-card__shop">山形支店</p>
+                        <p class="staff-card__name">チーフ　西木 桜</p>
+                    </div>
+                    <div class="staff-card__content2">
+                        <p class="staff-card__qualification">資格：宅地建物取引士</p>
+                        <p class="staff-card__text">
+                            アピール：入社４年目のエース。<br>県内有数の温泉街をつなぐ県道<br>沿いの優良物件を多数ご用意し<br>ております。<br>美しい田園風景とマッチする新<br>しい形の店舗をご提案します。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="staff__card">
+                <div class="staff-card__image"><img src="./img/staffs__staff4.png" alt=""></div>
+                <div class="staff-card__body">
+                    <div class="staff-card__content1">
+                        <p class="staff-card__shop">福島支店</p>
+                        <p class="staff-card__name">支店長　桃瀬 隆</p>
+                    </div>
+                    <div class="staff-card__content2">
+                        <p class="staff-card__qualification">資格：宅地建物取引士</p>
+                        <p class="staff-card__text">
+                            アピール：入社３年目。東京から<br>新幹線で１時間程度のアクセスの<br>良さからワーケション地域として<br>再注目を浴びている福島で、地域<br>の活性につながるこの仕事に誇り<br>を持っています。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</maim>
+<!-- footerセクション -->
+<div class="footer">
+    <div class="footer__inner inner">
+        <div class="footer__container">
+        <div class="footer__card">
+            <p class="footer__card-lead1">東北エリアの物件なら我々にお任せください</p>
+            <p class="footer__card-lead2">ご予約・ご相談 無料</p>
+            <div class="footer__card-button"> <a href="" class="button">まずは予約する</a></div>
+            <p class="footer__card-lead3">24時間365日間いつでもご予約可能です</p>
+        </div>
+        <ul class="footer__informations">
+            <div class="footer__logo"><a href=""><img src="./img/footer__logo.png" alt="エステート東北"></a></div>
+            <li class="footer__information">営業時間：9:00~18:00 （土日祝休）</li>
+            <li class="footer__information">住所:宮城県仙台市◯◯区1-2-3</li>
+            <li class="footer__information">TEL:000-0000-0000</li>
+            <li class="footer__information">FAX:000-0000-0000</li>
+            <li class="footer__information">email:estatetohoku@xxx.co.jp</li>
+        </ul>
+        <div class="footer__map"></div>
+    </div>
+    </div>
+    <footer class="footer__bottom">
+        <ul class="footer__menu-items">
+            <li class="footer__menu-item">
+                <a href="" class="footer__menu-link">エステート東北</a>
+            </li>
+            <li class="footer__menu-item">
+                <a href="" class="footer__menu-link">物件</a>
+            </li>
+            <li class="footer__menu-item">
+                <a href="" class="footer__menu-link">サービス</a>
+            </li>
+            <li class="footer__menu-item">
+                <a href="" class="footer__menu-link">スタッフ</a>
+            </li>
+        </ul>
+        <p class="footer__copyright">
+            <small>©️2024 エステート東北</small>
+        </p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
